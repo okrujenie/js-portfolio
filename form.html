@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Форма</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+	<div class="container">
+
+		<div class="header"><h1 class="registration">Регистрация</h1></div>
+
+		<form class="form" action="" autocomplete="on">
+
+			<div class="name_div input_div">
+				<label for="first_name_input" id="first_name_label" class="label name_label">Имя</label>
+				<br>
+				<span class="fields">
+					<input id="first_name_input" class="name_field input_field" type="text"
+						placeholder="Пожалуйста, укажите имя" maxlength="30">
+				</span>
+			</div>
+
+			<div class="name_div input_div">
+				<label for="surname_input" id="surname_label" class="label name_label">Фамилия</label>
+				<br>
+				<span class="fields">
+					<input id="surname_input" class="name_field input_field" type="text" placeholder="Ваша фамилия?"
+						maxlength="30">
+				</span>
+			</div>
+
+			<div class="email_div input_div">
+				<label for="email_input" id="email_label" class="label email_label">Электронная почта</label>
+				<br>
+				<span class="fields">
+					<input id="email_input" class="email_field input_field" type="text"
+						placeholder="Ваша электронная почта?">
+				</span>
+			</div>
+
+			<div class="password_div input_div">
+				<label for="password_input" id="password_label" class="label password_label">Придумайте пароль</label>
+				<br>
+				<span class="fields">
+					<input id="password_input" class="password_field input_field" type="password"
+						placeholder="Не менее 8 символов">
+				</span>
+			</div>
+
+			<div class="password_div input_div">
+				<label for="password_confirmation" class="label password_label">Подтвердите пароль</label>
+				<br>
+				<span class="fields">
+					<input id="password_confirmation" class="password_field input_field" type="password"
+						placeholder="Подтвердите пароль">
+				</span>
+			</div>
+
+			<div class="birth_date_div input_div">
+			<label for="birth_date" class="">Дата рождения</label>
+			<br>
+			<span class="">
+				<input id="birth_date" class="birth_date_field input_field" type="date" max="2018-12-31" placeholder="Дата вашего рождения">
+			</span>
+		</div> <!-- -->
+
+			<div class="button_div">
+				<br>
+				<span class="">
+					<input id="submit_button" class="registerButton" type="submit" value="Отправить">
+				</span>
+			</div>
+
+		</form>
+
+	</div>
+	<script src="form-validation.js"></script>
+</body>
+
+</html>

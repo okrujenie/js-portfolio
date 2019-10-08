@@ -1,0 +1,69 @@
+/**/_xdc_._uh9dze && _xdc_._uh9dze( {
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "12",
+               "short_name" : "12",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "улица Карла Маркса",
+               "short_name" : "ул. Карла Маркса",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Иркутск",
+               "short_name" : "Иркутск",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "город Иркутск",
+               "short_name" : "г. Иркутск",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Иркутская область",
+               "short_name" : "Иркутская обл.",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Россия",
+               "short_name" : "RU",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "664003",
+               "short_name" : "664003",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "ул. Карла Маркса, 12, Иркутск, Иркутская обл., Россия, 664003",
+         "geometry" : {
+            "location" : {
+               "lat" : 52.2781189,
+               "lng" : 104.2802973
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 52.27946788029151,
+                  "lng" : 104.2816462802915
+               },
+               "southwest" : {
+                  "lat" : 52.27676991970851,
+                  "lng" : 104.2789483197085
+               }
+            }
+         },
+         "place_id" : "ChIJpSAAG007qF0RtwQoOmxFJBo",
+         "plus_code" : {
+            "compound_code" : "77HJ+64 Иркутск, Иркутская область, Россия",
+            "global_code" : "9P4677HJ+64"
+         },
+         "types" : [ "establishment", "point_of_interest", "travel_agency" ]
+      }
+   ],
+   "status" : "OK"
+}
+ )
